@@ -25,20 +25,21 @@ Our comparison matrix covers **10 models, 3 configurations and 20 conversations:
 
 <sub>These are team experiments on synthetic development data, rather than a production accuracy claim.</sub>
 
-### [Omarchy Genie ↗](https://github.com/nacho1706/omarchy-genie)
-An MIT-licensed plugin that brings Genie-style window minimization and restoration to the Omarchy dock. QML, Python and GPU shaders, with **13 regression tests** and documented live integration checks.
+## Open Source Projects
 
-I also built [Dock Window Counter](https://github.com/nacho1706/omarchy-dock-window-counter) and submitted both plugins to the [Omarchy community marketplace](https://github.com/omacom/omarchy-plugin-marketplace). Genie is still under review.
+### [Hermit Scraper ↗](https://github.com/nacho1706/hermit-scrape)
+A TypeScript browser extension that evaluates marketplace listings against a search brief using Jev through OpenRouter. It labels visible listings **MATCH**, **SKIP** or **REVIEW**, with a side panel and CSV export. Currently supports Facebook Marketplace, with an adapter-based direction for additional marketplaces.
 
-<details>
-<summary>Watch Genie in action</summary>
-<br>
+### Omarchy plugins
+Desktop extensions built with QML, Python and GPU shaders for the Omarchy ecosystem:
 
-![A window minimizing into the Omarchy dock and restoring](https://raw.githubusercontent.com/nacho1706/omarchy-genie/main/docs/assets/genie-demo.gif)
+- **[Genie](https://github.com/nacho1706/omarchy-genie)** — animated window minimization and restoration integrated with the dock, with 13 regression tests.
+- **[Dock Window Counter](https://github.com/nacho1706/omarchy-dock-window-counter)** — workspace-aware running indicators and window counts for the native floating dock.
 
-[Source and installation instructions](https://github.com/nacho1706/omarchy-genie#readme)
+Both plugins were submitted to the [Omarchy community marketplace](https://github.com/omacom/omarchy-plugin-marketplace); Genie is still under review.
 
-</details>
+### [NutriMezzo ↗](https://github.com/nacho1706/nutrimezzo)
+A local-first calorie and macro tracker built with Flutter, with notes-style food logging and bring-your-own-key AI assistance.
 
 ## How I work
 
@@ -52,11 +53,6 @@ My background is in backend and full-stack development: custom business systems,
 | Backend | PHP, Laravel, Go, PostgreSQL, MySQL, REST APIs |
 | Interfaces | React, Next.js, Livewire, Tailwind CSS |
 | Delivery | Docker, GitHub Actions, AWS S3/CloudFront, Oracle Cloud, Linux |
-
-## More things I've shipped
-
-- **[NutriMezzo](https://github.com/nacho1706/nutrimezzo)** — a local-first calorie and macro tracker built with Flutter, with bring-your-own-key AI assistance.
-- **[Laravel AI Wire Base](https://github.com/nacho1706/laravel-ai-wire-base)** — a Dockerized Laravel + Livewire + AI starting point.
 
 ---
 
