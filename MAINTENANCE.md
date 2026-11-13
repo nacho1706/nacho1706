@@ -31,7 +31,7 @@ El elemento `picture` ofrece un PNG estático cuando el navegador indica `prefer
 - Banner GIF verificado: 84 fotogramas, 1280 × 400, bucle continuo, aproximadamente 92 KB (6,72 segundos por ciclo).
 - Revisión visual de fotograma estático y central; sin JavaScript o CSS personalizado en el README.
 
-La validación con la API comprueba el HTML generado. El renderizado visual dentro del perfil depende de GitHub; se debe verificar allí después de publicar.
+La validación con la API comprueba el HTML generado. Publicación comprobada: el HTML del perfil de GitHub incluye el README, el GIF y el source estático para reducir movimiento. No se hizo inspección visual en un navegador conectado.
 
 ## Revisión
 
